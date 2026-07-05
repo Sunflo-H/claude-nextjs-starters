@@ -2,6 +2,18 @@
 
 마케팅 랜딩 페이지, 인증 폼, 대시보드 레이아웃을 미리 구성해둔 Next.js 스타터킷입니다. 검증된 라이브러리 위에 실무에서 바로 재사용할 수 있는 컴포넌트만 얹었습니다.
 
+## 이 템플릿으로 새 프로젝트 시작하기
+
+이 저장소는 GitHub Template repository로 설정되어 있어, 커밋 히스토리 없이 깨끗한 새 저장소를 바로 만들 수 있습니다.
+
+1. GitHub 저장소 페이지 상단의 **[Use this template]** 버튼 → **Create a new repository** 클릭 (또는 CLI: `gh repo create <새-저장소-이름> --template Sunflo-H/claude-nextjs-starters`)
+2. 새로 만들어진 저장소를 clone
+3. 아래 항목을 새 프로젝트에 맞게 변경
+   - `package.json`의 `name` 필드
+   - `src/app/layout.tsx`의 `metadata.title` / `metadata.description`
+   - 이 README 내용 전체
+4. `pnpm install` → `pnpm dev`로 개발 시작
+
 ## 기술 스택
 
 - **프레임워크**: Next.js 16 (App Router, Turbopack), React 19, TypeScript
